@@ -15,7 +15,6 @@ function calculadoraEdad(fechaNacimiento, fechaActual) {
     const [anoNacimiento, mesNacimiento, diaNacimiento] = fechaNacimiento
     const [anoActual, mesActual, diaActual] = fechaActual
 
-
     let edadAnos = anoActual - anoNacimiento
     let edadMeses = mesActual - mesNacimiento
     let edadDias = diaActual - diaNacimiento
