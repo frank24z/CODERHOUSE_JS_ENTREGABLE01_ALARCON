@@ -47,6 +47,6 @@ const fechaActual = [
 
 const edad = calculadoraEdad(fechaNacimiento, fechaActual)
 
-console.log(`Resultado final: Años: ${edad.años}, Meses: ${edad.meses}, Días: ${edad.días}`)
+console.log(`Resultado final: Años: ${edad.anos}, Meses: ${edad.meses}, Días: ${edad.dias}`)
 
 alert(`Usted tiene ${edad.anos} años, ${edad.meses} meses y ${edad.dias} días.`)
