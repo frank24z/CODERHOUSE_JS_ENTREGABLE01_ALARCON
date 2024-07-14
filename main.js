@@ -18,7 +18,7 @@ function calculadoraEdad(fechaNacimiento, fechaActual) {
 
     let edadAnos = anoActual - anoNacimiento
     let edadMeses = mesActual - mesNacimiento
-    let edadDias = diaActual - diaNacimientocd 
+    let edadDias = diaActual - diaNacimiento
 
     if (edadDias < 0) {
         edadDias += 30
@@ -50,3 +50,4 @@ const edad = calculadoraEdad(fechaNacimiento, fechaActual)
 console.log(`Resultado final: Años: ${edad.anos}, Meses: ${edad.meses}, Días: ${edad.dias}`)
 
 alert(`Usted tiene ${edad.anos} años, ${edad.meses} meses y ${edad.dias} días.`)
+
