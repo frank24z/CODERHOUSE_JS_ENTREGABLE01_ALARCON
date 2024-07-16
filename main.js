@@ -23,12 +23,12 @@ const fechaActual = [
 ]
 
 const calculadoraEdad = (fechaNacimiento, fechaActual) => {
-    const [anoNacimiento, mesNacimiento, diaNacimiento] = fechaNacimiento;
-    const [anoActual, mesActual, diaActual] = fechaActual;
+    const [anoNacimiento, mesNacimiento, diaNacimiento] = fechaNacimiento
+    const [anoActual, mesActual, diaActual] = fechaActual
 
-    let edadAnos = anoActual - anoNacimiento;
-    let edadMeses = mesActual - mesNacimiento;
-    let edadDias = diaActual - diaNacimiento;
+    let edadAnos = anoActual - anoNacimiento
+    let edadMeses = mesActual - mesNacimiento
+    let edadDias = diaActual - diaNacimiento
 
     if (edadDias < 0) {
         edadDias += 30
