@@ -28,19 +28,19 @@ const calculadoraEdad = (fechaNacimiento, fechaActual) => {
     }
 
     return { anos: edadAnos, meses: edadMeses, dias: edadDias }
-};
+}
 
 const fechaNacimiento = [
     parseInt(prompt("Ingresa tu año de nacimiento (EJ: 1994):")),
     parseInt(prompt("Ingresa tu mes de nacimiento (Ej: 1):")),
     parseInt(prompt("Ingresa tu día de nacimiento (Ej: 17):"))
-];
+]
 
 const fechaActual = [
     parseInt(prompt("Ingresa el año actual (Ej: 2024):")),
     parseInt(prompt("Ingresa el mes actual (EJ: 7):")),
     parseInt(prompt("Ingresa el día actual (EJ: 10):"))
-];
+]
 
 const edad = calculadoraEdad(fechaNacimiento, fechaActual)
 
